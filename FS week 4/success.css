@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f2f45, #2c3e50);
+  min-height: 100vh;
+}
+
+.topbar {
+  background-color: #1b2b3a;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.topbar h1 {
+  font-size: 20px;
+}
+
+.topbar h2 {
+  font-size: 15px;
+  color: #cfd8dc;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+.topbar nav {
+  margin-top: 12px;
+  background-color: #234;
+  padding: 8px 0;
+}
+
+.topbar nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.topbar nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.message-box {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 25px 30px;
+  width: 100%;
+  max-width: 650px;
+}
+
+.success-text {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.login-time {
+  color: #cfd8dc;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.greeting {
+  color: #cfd8dc;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.notice {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid #d81b60;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.notice h3 {
+  color: #d81b60;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.notice ul {
+  color: #e0e0e0;
+  font-size: 14px;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  color: #cfd8dc;
+  font-size: 12px;
+  padding: 20px;
+}
